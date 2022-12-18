@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(helmet());
 
 
-app.get("/",(req,res) => {
+app.get("/api",(req,res) => {
     res.json({success: true, message: 'Nikal Laude'})
 })
 
